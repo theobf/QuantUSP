@@ -1,0 +1,55 @@
+\documentclass{article}
+
+\usepackage[width=170mm,top=25mm,bottom=25mm,bindingoffset=6mm,left=15mm,right=15mm]{geometry}
+
+\usepackage[brazil]{babel}
+\usepackage{hyperref}
+\usepackage{hyperref}
+\hypersetup{
+  colorlinks   = true, %Colours links instead of ugly boxes
+  urlcolor     = blue, %Colour for external hyperlinks
+  linkcolor    = blue,  %Colour of internal links
+  citecolor   = red    %Colour of citations
+}
+\usepackage{url}
+
+\title{Anotações das reuniões}
+\author{QuantUSP}
+
+\begin{document}
+
+\maketitle
+
+\section*{Reunião 0 (10/05/2024)}
+
+Os seguintes tópicos foram discutidos nesta reunião:
+\begin{itemize}
+    \item Apresentação dos objetivos do grupo e dos participantes.
+    \item Apresentação das atividades propostas para as próximas reuniões.
+        Tentaremos seguir a seguinte ordem de apresentação de tópicos sobre computação quântica:
+        \begin{enumerate}
+            \item Definições e propriedades básicas do modelo de circuitos quânticos;
+            \item Algoritmo de Deutsch-Jozsa;
+            \item Algoritmo de Bernstein-Vazirani;
+            \item Algoritmo de Simon;
+            \item Algoritmo de Grover;
+            \item Algoritmo de Shor.
+        \end{enumerate}
+        Usaremos como bibliografia básica as notas de aulas de Ronald de Wolf~\cite{deWolfLectureNotes},
+        disponível em \url{https://arxiv.org/abs/1907.09415}.
+        A respeito de bibliografias adicionais,
+        recomendamos o livro de Nielsen e Chuang~\cite{NielsenChuangQCQI} para tópicos gerais em computação e informação quântica,
+        e o livro de Lipton e Regan~\cite{LiptonReganIQALA} para computação quântica mais focada em algoritmos quânticos.
+        Todas essas bibliografias mencionadas tem alguma revisão dos pré-requisitos de álgebra linear.
+        Para uma revisão mais completa dos pré-requisitos, recomendamos o livro \emph{The Mathematics of Quantum Mechanics} de Martin Laforest,
+        disponível em \url{http://www.stat.ucla.edu/~ywu/linear.pdf}.
+\end{itemize}
+
+\section*{Reunião 1 (17/05/2024)}
+
+Discutiremos alguns tópicos dos capítulos 1 e 2 de~\cite{deWolfLectureNotes}.
+
+\bibliographystyle{plainurl}
+\bibliography{./refs.bib}
+\end{document}
+
